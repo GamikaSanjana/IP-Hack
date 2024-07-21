@@ -21,7 +21,7 @@ Install `iphack` via pip:
 ```sh```
 ```pip install iphack```
 
-# Usage
+## Usage
 Send a GET Request
 <details>
 <summary>from iphack import inquiry
@@ -30,28 +30,28 @@ response = inquiry.get("https://api.ipify.org/")
 print(response.text)</summary>
 </details>
 
-# Send a POST Request
+## Send a POST Request
 <details>
 <summary>response = inquiry.post("https://example.com")</summary>
 </details>
 
-# Send a PUT Request
+## Send a PUT Request
 <details>
 <summary>response = inquiry.put("https://example.com")
 </summary>
 </details>
 
-# Send a DELETE Request
+## Send a DELETE Request
 <details>
 <summary>response = inquiry.delete("https://example.com")</summary>
 </details>
 
-# Send a HEAD Request
+## Send a HEAD Request
 <details>
 <summary>response = inquiry.head("https://example.com")</summary>
 </details>
 
-# Change Anonymization Method
+## Change Anonymization Method
 <details>
 <summary>inquiry.rechange("tor")   # Use Tor network
 inquiry.rechange("web")   # Use standard web connection
@@ -59,21 +59,21 @@ inquiry.rechange("vpn")   # Use VPN connection
 </summary>
 </details>
 
-# Enable and Disable Logging
+## Enable and Disable Logging
 <details>
 <summary>inquiry.debug(True)  # Enable logging
 inquiry.debug(False) # Disable logging</summary>
 </details>
 
-# Contribution
+## Contribution
 
 We welcome contributions from the community! Feel free to fork the repository and submit a pull request with your enhancements.
 
-# License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-# Connect with Us
+## Connect with Us
 
 Stay updated with our latest developments and tutorials by subscribing to our YouTube Channel.
 
