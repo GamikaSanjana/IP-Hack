@@ -3,6 +3,9 @@
 import logging
 from iphack import inquiry
 
+time.sleep(0.1)
+xdg-open https://www.youtube.com/@ZeroxEagleOfficial
+
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
